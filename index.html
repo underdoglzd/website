@@ -4,17 +4,19 @@
     <title>PEW</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap" rel="stylesheet">
 </head>
   
 <body>
-    <header>
-        <nav>
+    <header class="header">
+        <nav class="navigation">
             <a class="logo">NMS</a>
             <ul class="navigation-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About us</a></li>
                 <li><a href="#">PORTFOLIO</a></li>
-                <li><a href="#">steps of our work</a></li>
+                <li><a href="#">Steps of our work</a></li>
                 <li><a href="#">Design plan</a></li>
                 <li><a href="#">Quiz</a></li>
                 <li><a href="#">Benefits</a></li>
@@ -29,6 +31,7 @@
         </nav>
     </header>
     <main>
+        <!-- MAIN HERO -->
         <section class="section_main-hero">
             <div class="main-hero_info">
                 <h1>
@@ -37,9 +40,10 @@
                 <span>
                     Best practices of modern interior design
                 </span>
-                <button>book in</button>
+                <button class="main-hero_btn">book in</button>
             </div>
         </section>
+        <!-- ABOUT -->
         <section id="about" class="section_about">
             <h2>About us</h2>
             <div>
@@ -73,6 +77,7 @@
                 </div>
             </div>
         </section>
+        <!-- PORTFOLIO -->
         <section id="portfolio" class="section_portfolio">
             <h2>portfolio</h2>
             <div class="nportfolio_nav"></div>
@@ -87,6 +92,7 @@
                 <div class="portfolio_card"></div>
             </div>
         </section>
+        <!-- STEPS OF WORK -->
         <section id="stepsOfWork" class="section_steps-of-work">
             <h2>steps of our work</h2>
             <div class="slider">
@@ -109,28 +115,270 @@
                 </div>
             </div>
         </section>
+        <!-- DESIGN PLAN -->
         <section class="section_plan">
             <h2>Design Plan</h2>
+            <div class="cards-wrapper">
+                <div class="card-plan">
+                    <span>Technical</span>
+                    <div class="card-info">
+                        <ul class="card-info_include">
+                            <li>
+                                <span>Meeting</span>
+                            </li>
+                            <li>
+                                <span>Measurement plan</span>
+                            </li>
+                            <li>
+                                <span>Planning solution</span>
+                            </li>
+                            <li>
+                                <span>Furniture plan</span>
+                            </li>
+                            <li>
+                                <span>Partilioning plan</span>
+                            </li>
+                        </ul>
+                        <ul class="card-info_not-inclide">
+                            <li>
+                                <span>Terms of Reference</span>
+                            </li>
+                            <li>
+                                <span>3D Visualization</span>
+                            </li>
+                            <li>
+                                <span>Working Documentation</span>
+                            </li>
+                            <li>
+                                <span>Furniture and materials</span>
+                            </li>
+                            <li>
+                                <span>Author's supervision</span>
+                            </li>
+                            <li>
+                                <span>Furniture plan</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <span>$70/m2</span>
+                        <button>
+                            Choose
+                        </button>
+                    </div>
+                </div>
+                <div class="card-plan">
+                    <span>Design</span>
+                    <div class="card-info">
+                        <ul class="card-info_include">
+                            <li>
+                                <span>Meeting</span>
+                            </li>
+                            <li>
+                                <span>Measurement plan</span>
+                            </li>
+                            <li>
+                                <span>Planning solution</span>
+                            </li>
+                            <li>
+                                <span>Furniture plan</span>
+                            </li>
+                            <li>
+                                <span>Partilioning plan</span>
+                            </li>
+                            <li>
+                                <span>Terms of Reference</span>
+                            </li>
+                            <li>
+                                <span>3D Visualization</span>
+                            </li>
+                            <li>
+                                <span>Working Documentation</span>
+                            </li>
+                            <li>
+                                <span>Furniture and materials</span>
+                            </li>
+                        </ul>
+                        <ul class="card-info_not-inclide">
+                            <li>
+                                <span>Author's supervision</span>
+                            </li>
+                            <li>
+                                <span>Furniture plan</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <span>$80/m2</span>
+                        <button>
+                            Choose
+                        </button>
+                    </div>
+                </div>
+                <div class="card-plan">
+                    <span>Premium</span>
+                    <div class="card-info">
+                        <ul class="card-info_include">
+                            <li>
+                                <span>Meeting</span>
+                            </li>
+                            <li>
+                                <span>Measurement plan</span>
+                            </li>
+                            <li>
+                                <span>Planning solution</span>
+                            </li>
+                            <li>
+                                <span>Furniture plan</span>
+                            </li>
+                            <li>
+                                <span>Partilioning plan</span>
+                            </li>
+                            <li>
+                                <span>Terms of Reference</span>
+                            </li>
+                            <li>
+                                <span>3D Visualization</span>
+                            </li>
+                            <li>
+                                <span>Working Documentation</span>
+                            </li>
+                            <li>
+                                <span>Furniture and materials</span>
+                            </li>
+                            <li>
+                                <span>Author's supervision</span>
+                            </li>
+                            <li>
+                                <span>Furniture plan</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <span>$100/m2</span>
+                        <button>
+                            Choose
+                        </button>
+                    </div>
+                </div>
+            </div>
         </section>
+        <!-- QUIZ -->
         <section class="section_quiz">
             <h2>Still indecided?</h2>
+            <span>Take the quiz and we'll find you the package you need.</span>
+            <button>Take a quiz</button>
+            <span>Bonus at the end of the quiz.</span>
+            <!-- QUIZ START/END -->
         </section>
+        <!-- BENEFITS -->
         <section class="section_benefits">
-            <div class="benefits_card"></div>
-            <div class="benefits_card"></div>
-            <div class="benefits_card"></div>
-            <div class="benefits_card"></div>
-            <div class="benefits_card"></div>
-            <div class="benefits_card"></div>
-            <div class="benefits_card"></div>
-            <div class="benefits_card"></div>
+            <div class="benefits_card">
+                <span class="benefits_card-number">01</span>
+                <div class="benefits_card-image">
+                    <img />
+                </div>
+                <p class="benefits_card-info">
+                    An individual project for each customer, taking into account all their wishes, character and lifestyle. 
+                </p>
+            </div>
+            <div class="benefits_card">
+                <span class="benefits_card-number">02</span>
+                <div class="benefits_card-image">
+                    <img />
+                </div>
+                <p class="benefits_card-info">
+                    Layout designed with ergonomic norms in mind.
+                </p>
+            </div>
+            <div class="benefits_card">
+                <span class="benefits_card-number">03</span>
+                <div class="benefits_card-image">
+                    <img />
+                </div>
+                <p class="benefits_card-info">
+                    Competent, detailed drawings: builders will not bother with complicated questions.
+                </p>
+            </div>
+            <div class="benefits_card">
+                <span class="benefits_card-number">04</span>
+                <div class="benefits_card-image">
+                    <img />
+                </div>
+                <p class="benefits_card-info">
+                    We can help you allocate your budget wisely.
+                </p>
+            </div>
+            <div class="benefits_card">
+                <span class="benefits_card-number">05</span>
+                <div class="benefits_card-image">
+                    <img />
+                </div>
+                <p class="benefits_card-info">
+                    Clear project presentation with photorealistic 3D visualisation.
+                </p>
+            </div>
+            <div class="benefits_card">
+                <span class="benefits_card-number">06</span>
+                <div class="benefits_card-image">
+                    <img />
+                </div>
+                <p class="benefits_card-info">
+                    Realisable interior design, selection of all materials according to budget.
+                </p>
+            </div>
+            <div class="benefits_card">
+                <span class="benefits_card-number">07</span>
+                <div class="benefits_card-image">
+                    <img />
+                </div>
+                <p class="benefits_card-info">
+                    Opportunity to consult with an experienced designer at all stages.
+                </p>
+            </div>
+            <div class="benefits_card">
+                <span class="benefits_card-number">08</span>
+                <div class="benefits_card-image">
+                    <img />
+                </div>
+                <p class="benefits_card-info">
+                    Liaising with experienced contractors (builders, suppliers).
+                </p>
+            </div>
         </section>
+        <!-- REVIEWS -->
         <section class="section_reviews">
             <h2>Reviews</h2>
+            <div class="reviews-wrapper">
+                <div class="review">
+                    <p class="review-info">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                         labore et dolore magna aliqua.
+                    </p>
+                    <span class="review-author">John Doe</span>
+                </div>
+                <div class="review">
+                    <p class="review-info">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                         labore et dolore magna aliqua.
+                    </p>
+                    <span class="review-author">John Doe</span>
+                </div>
+                <div class="review">
+                    <p class="review-info">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                         labore et dolore magna aliqua.
+                    </p>
+                    <span class="review-author">John Doe</span>
+                </div>
+            </div>
         </section>
+        <!-- FAQ -->
         <section class="section_faq">
             <h2>faq</h2>
+            <div class=""></div>
         </section>
+        <!-- CONTACTS -->
         <section class="section_contacts">
             <h2>Contacts</h2>
         </section>

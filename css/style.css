@@ -1,8 +1,12 @@
-.navigation-links {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-}
+@import url('reset.css');
+@import url('header.css');
+@import url('main_hero.css');
+
+body {
+    max-width: 1920px;
+    box-sizing: border-box;
+    font-family: 'Sen', sans-serif;
+} 
 
 .portfolio_card {
     width: 396px;
