@@ -2,22 +2,70 @@
     position: fixed;
     width: 100%;
     height: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     align-items: center;
-    padding: 25px 100px 0 100px;
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
+    z-index: 11;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    margin-left: 50px;
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .navigation-links {
     width: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
 .navigation-links > li > a {
+    position: relative;
+    margin-left: 25px;
     color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.navigation-links > li > a:hover::before {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    content: ' ';
+}
+
+.header_cta {
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.header_cta-btn {
+    width: 250px;
+    height: 45px;
+    border: 2px solid #E5FF7B;
+    color: #E5FF7B;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.header_cta .phone {
+    margin-left: 25px;
+    min-width: 264px;
+    font-size: 36px;
+    cursor: pointer;
 }
