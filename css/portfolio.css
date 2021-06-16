@@ -1,0 +1,21 @@
+.portfolio {
+    background-color: #EEEEEE;
+}
+
+.portfolio_card {
+    width: 345px;
+    height: 375px;
+    display: inline-block;
+    background-color: darkgrey;
+}
+
+@media screen and (min-width: 768px) {
+    .portfolio_card {
+        width: 396px;
+        height: 396px;
+        display: inline-block;
+        margin-left: 45px;
+        margin-bottom: 45px;
+        background-color: darkgrey;
+    }
+}
