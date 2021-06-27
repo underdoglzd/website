@@ -3,12 +3,18 @@
 @import url('main_hero.css');
 @import url('about.css');
 @import url('portfolio.css');
+@import url('slider.css');
+@import url('plan.css');
+@import url('quiz.css');
+@import url('benefits.css');
+@import url('reviews.css');
+@import url('faq.css');
+@import url('contacts.css');
 
 body {
-    max-width: 768px;
     box-sizing: border-box;
     font-family: 'Sen', sans-serif;
-} 
+}
 
 .section {
     padding: 0 15px;
@@ -16,8 +22,8 @@ body {
 
 .section > h2 {
     position: relative;
-    margin-top: 15px;
-    margin-bottom: 20px;
+    padding-top: 25px;
+    margin-bottom: 30px;
     font-size: 28px;
     font-weight: bold;
     text-transform: uppercase;
@@ -28,7 +34,7 @@ body {
     content: ' ';
     display: inline-block;
     position: absolute;
-    top: 32px;
+    top: 60px;
     left: 0;
     width: 100%;
     height: 5px;
@@ -36,16 +42,13 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-    body {
-        max-width: 1920px;
-    } 
-
     .section {
-        padding: 0 248px;
+        padding: 0 247px;
+        max-width: 1920px;
     }
 
     .section > h2 {
-        margin-top: 70px;
+        padding-top: 70px;
         margin-bottom: 87px;
         font-size: 52px;
         text-align: left;
@@ -55,7 +58,7 @@ body {
         content: ' ';
         display: inline-block;
         position: absolute;
-        top: 82px;
+        top: 147px;
         left: 0;
         width: 100%;
         max-width: 392px;

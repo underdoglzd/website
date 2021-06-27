@@ -1,0 +1,157 @@
+.card-plan {
+    text-align: center;
+    box-shadow: 0px 7px 50px rgba(0, 0, 0, 0.2);
+    padding: 10px 41px;
+    margin-bottom: 20px;
+}
+
+.card-plan:last-child {
+    margin-bottom: 35px;
+}
+
+.card-headline {
+    width: 100%;
+    font-size: 26px;
+    font-weight: 700;
+    color: #262626;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 35px;
+    display: inline-block;
+}
+
+.card-headline::after {
+    content: ' ';
+    display: inline-block;
+    position: absolute;
+    top: 31px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #E5FF7B;
+}
+
+.card-info {
+    text-align: left;
+}
+
+.card-info_include li {
+    margin-bottom: 20px;
+}
+
+.card-info_include li::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+}
+
+.card-info_include li span {
+    margin-left: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #262626;
+}
+
+.card-info_not-inclide li {
+    margin-bottom: 20px;
+}
+
+.card-info_not-inclide li span {
+    margin-left: 27px;
+    font-size: 18px;
+    color: #8d8d8d;
+    text-decoration: line-through;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.plan-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #262626;
+    text-align: left;
+}
+
+.card-footer button {
+    position: relative;
+    right: -15px;
+    width: 147px;
+    height: 50px;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #262626;
+    background-color: #E5FF7B;
+}
+
+.card-footer button:hover {
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 768px) {
+    .cards-wrapper {
+        display: flex;
+        margin-bottom: 172px;
+    }
+
+    .card-plan {
+        width: 445px;
+        height: 828px;
+        margin-right: 45px;
+        padding: 25px 54px;
+    }
+
+    .card-plan:last-child {
+        margin-right: 0;
+    }
+    
+    .card-headline {
+        font-size: 44px;
+        margin-bottom: 55px;
+    }
+
+    .card-headline::after {
+        content: ' ';
+        display: inline-block;
+        position: absolute;
+        top: 57px;
+        left: 0;
+        width: 100%;
+        max-width: 392px;
+        height: 10px;
+        background-color: #E5FF7B;
+    }
+
+    .card-info_include li span,
+    .card-info_not-inclide li span {
+        font-size: 24px;
+    }
+
+    .card-info_include li,
+    .card-info_not-inclide li {
+        margin-bottom: 30px;
+    }
+
+    .card-footer {
+        margin-top: 80px;
+        margin-bottom: 55px;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    
+    .plan-price {
+        font-size: 36px;
+    }
+    
+    .card-footer button {
+        width: 189px;
+        height: 60px;
+    }
+}

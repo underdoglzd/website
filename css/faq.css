@@ -1,0 +1,99 @@
+ul.accordion-list {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    list-style: none;
+    background-color: #f9f9fA;
+}
+    
+ul.accordion-list li {
+    position: relative;
+    display: block;
+    height: auto;
+    background-color: #FFF;
+    margin: 0 auto 20px auto;
+    border: 1px solid #333;
+    cursor: pointer;
+    font-size: 14px;
+    color: #262626;
+}
+
+ul.accordion-list li h3::before {
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    left: 20px;
+    width: 20px;
+    height: 12px;
+    content: " ";
+    background-image: url('../img/Vector.svg');
+}
+
+ul.accordion-list li.active h3::before {
+    transform: rotate(180deg);
+}
+
+ul.accordion-list li h3 {
+    position: relative;
+    padding: 20px 15px 15px 62px;
+}
+
+ul.accordion-list li.active h3 {
+    border-bottom: 1px solid #333;
+}
+
+ul.accordion-list li .answer {
+    margin: 20px 15px 15px 15px;
+}
+
+.faq-side {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .section.faq {
+        padding-bottom: 170px;
+    }
+
+    ul.accordion-list {
+        max-width: 800px;
+    }
+
+    .faq-side {
+        display: block;
+        width: 540px;
+        float: right;
+    }
+
+    .faq-side h3 {
+        font-size: 48px;
+        font-weight: bold;
+    }
+
+    .faq-side p {
+        margin-top: 65px;
+        font-size: 24px;
+        color: #8D8D8D;
+    }
+
+    ul.accordion-list li {
+        font-size: 24px;
+    }
+
+    ul.accordion-list li h3 {
+        font-size: 32px;
+        padding: 35px 25px 30px 130px;
+    }
+
+    ul.accordion-list li .answer {
+        margin: 45px 45px 45px 45px;
+    }
+
+    ul.accordion-list li h3::before {
+        top: 50%;
+        margin-top: -10px;
+        left: 47px;
+    }
+}

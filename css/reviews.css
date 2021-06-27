@@ -1,0 +1,49 @@
+.section.reviews {
+    background-color: #393939;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.review {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.review-info {
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.review-author {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+    .reviews-wrapper {
+        display: flex;
+        margin-bottom: 171px;
+    }
+
+    .review {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 45px;
+        width: 445px;
+        text-align: left;
+    }
+
+    .review:last-child {
+        margin-right: 0;
+    }
+
+    .review-info {
+        font-size: 24px;
+        margin-bottom: 35px;
+    }
+
+    .review-author {
+        font-size: 24px;
+    }
+}
